@@ -257,7 +257,7 @@ int main() {
                 if (confirm == 1) {
                     //if yes then get the report file name.
                     char reportName[256];
-                    printf("\nEnter the name of the analysis report file to load from (e.g. ngram.csv): ");
+                    printf("\nEnter the name of the analysis report file to load from (e.g. ngramAnalysisreport.csv): ");
                     fgets(reportName, sizeof(reportName), stdin);
                     //clear the \r\n.
                     reportName[strcspn(reportName, "\r\n")] = 0;

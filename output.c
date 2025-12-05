@@ -226,7 +226,7 @@ void writeWordAnalysis(const FileData* allFilesData, AnalysisData* analysisData,
             continue;
         }
 
-        //creates a new string with the fileName and "Analysisreport.txt" appeneded to the end of it
+        //creates a new string with the fileName and "Analysisreport.csv" appeneded to the end of it
         char* summaryFileName = filenameFromPath(allFilesData, index);
         //skips the file if there was issues in creating.
         if (!summaryFileName) { continue; }
